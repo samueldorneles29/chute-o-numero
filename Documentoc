@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+int numero = 5;
+int chute;
+printf("digite um numero: ");
+scanf("%d", &chute);
+
+   if(chute == numero){
+        printf("acertou mizeravi \n");
+   }else{
+        printf ("perdeu seu inultil \n");
+    }
+printf("o numero era %d", numero);
+return 0;
+}
